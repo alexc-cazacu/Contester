@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/buttonOlimpiade"
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Olimpiade"
+        android:drawableLeft="@drawable/trophy"
+        android:textColor="@android:color/background_light"
+        tools:text="Olimpiade" />
+
+    <Button
+        android:id="@+id/buttonConcursuri"
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        android:layout_alignStart="@+id/buttonOlimpiade"
+        android:layout_below="@+id/buttonOlimpiade"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Concursuri"
+        android:drawableLeft="@drawable/comp"
+        android:textColor="@android:color/background_light"
+        tools:text="Concursuri" />
+
+    <Button
+        android:id="@+id/buttonAltele"
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        android:layout_alignStart="@+id/buttonConcursuri"
+        android:layout_below="@+id/buttonConcursuri"
+        android:layout_marginTop="63dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text=" Alte Activitati"
+        android:drawableLeft="@drawable/book"
+        android:textColor="@android:color/background_light"
+        tools:text="Alte Activitati" />
+</RelativeLayout>

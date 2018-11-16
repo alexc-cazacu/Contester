@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Contester</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Concursuri</string>
+    <string name="title_notifications">Calendar</string>
+    <string name="title_Contester">Gay</string>
+    <string name="toggle_notifications">Opreste/Porneste notificarile&#8230;</string>
+    <string name="toggle_preferences">Alege materiile preferate&#8230;</string>
+</resources>
