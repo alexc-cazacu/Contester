@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         loadFragment(new HomeFragment());
     }
 
-    private boolean loadFragment (Fragment fragment) {
+    boolean loadFragment(Fragment fragment) {
         if (fragment != null) {
 
             getSupportFragmentManager()
