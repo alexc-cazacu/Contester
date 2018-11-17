@@ -23,6 +23,14 @@
           }
         },
         {
+          "client_id": "871519586532-03j3sommjdv8u96lb6kjivn9rkhuc6mm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alexc.hacktothefuture",
+            "certificate_hash": "ddf0560915df20aa4e007facc3b413981cfd5270"
+          }
+        },
+        {
           "client_id": "871519586532-im2sc1ate98aeqq8on17o61q79eb5147.apps.googleusercontent.com",
           "client_type": 3
         }
