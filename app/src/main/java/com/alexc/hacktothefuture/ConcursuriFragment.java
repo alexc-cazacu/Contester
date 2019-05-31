@@ -3,18 +3,13 @@ package com.alexc.hacktothefuture;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.Toast;
-
-import java.nio.BufferUnderflowException;
 
 public class ConcursuriFragment extends Fragment implements View.OnClickListener {
 
@@ -39,7 +34,7 @@ public class ConcursuriFragment extends Fragment implements View.OnClickListener
 
             case R.id.buttonAltele:
 
-                Fragment fr = new lists("altele");
+                Fragment fr = new Lists("altele");
                 Bundle bundle = new Bundle();
                 bundle.putString("Key","altele");
                 fr.setArguments(bundle);
@@ -52,7 +47,7 @@ public class ConcursuriFragment extends Fragment implements View.OnClickListener
 
             case R.id.buttonConcursuri:
 
-                Fragment fr1 = new lists("concursuri");
+                Fragment fr1 = new Lists("concursuri");
                 Bundle bundle1=new Bundle();
                 bundle1.putString("Key","concursuri");
                 fr1.setArguments(bundle1);
@@ -66,7 +61,7 @@ public class ConcursuriFragment extends Fragment implements View.OnClickListener
             case R.id.buttonOlimpiade:
 
 
-                Fragment fr2=new lists("olimpiade");
+                Fragment fr2=new Lists("olimpiade");
                 Bundle bundle2=new Bundle();
                 bundle2.putString("Key","Olimpiade");
                 fr2.setArguments(bundle2);

@@ -11,10 +11,10 @@
         android:layout_height="80dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="60dp"
         android:backgroundTint="@color/colorPrimary"
         android:text="Olimpiade"
-        android:drawableLeft="@drawable/trophy"
+        android:drawableStart="@drawable/trophy"
         android:textColor="@android:color/background_light"
         tools:text="Olimpiade" />
 
@@ -27,7 +27,7 @@
         android:layout_marginTop="60dp"
         android:backgroundTint="@color/colorPrimary"
         android:text="Concursuri"
-        android:drawableLeft="@drawable/comp"
+        android:drawableStart="@drawable/comp"
         android:textColor="@android:color/background_light"
         tools:text="Concursuri" />
 
@@ -37,10 +37,10 @@
         android:layout_height="80dp"
         android:layout_alignStart="@+id/buttonConcursuri"
         android:layout_below="@+id/buttonConcursuri"
-        android:layout_marginTop="63dp"
+        android:layout_marginTop="60dp"
         android:backgroundTint="@color/colorPrimary"
         android:text=" Alte Activitati"
-        android:drawableLeft="@drawable/book"
+        android:drawableStart="@drawable/book"
         android:textColor="@android:color/background_light"
         tools:text="Alte Activitati" />
 </RelativeLayout>

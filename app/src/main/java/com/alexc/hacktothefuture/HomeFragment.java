@@ -1,6 +1,8 @@
 package com.alexc.hacktothefuture;
 
+import android.graphics.Bitmap;
 import android.graphics.Color;
+import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -44,7 +46,7 @@ public class HomeFragment extends Fragment {
         TextView textView=new TextView(getContext());
         textView.setText(text);
         t_flipper.addView(textView);
-        t_flipper.setFlipInterval(3500);
+        t_flipper.setFlipInterval(4000);
         t_flipper.setAutoStart(true);
     }
     public void flipperImages(int image)
@@ -52,7 +54,7 @@ public class HomeFragment extends Fragment {
         ImageView imageView=new ImageView(getContext());
         imageView.setBackgroundResource(image);
         v_flipper.addView(imageView);
-        v_flipper.setFlipInterval(3500);
+        v_flipper.setFlipInterval(4000);
         v_flipper.setAutoStart(true);
 
         v_flipper.setInAnimation(getContext(),android.R.anim.slide_in_left);
